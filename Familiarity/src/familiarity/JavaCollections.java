@@ -7,6 +7,7 @@ package familiarity;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.TreeMap;
 import java.util.TreeSet;
 
 /**
@@ -19,6 +20,8 @@ public class JavaCollections {
         //run all of the java collection in here
         JavaCollections.arrayListExample();
         JavaCollections.treeSetExample();
+        JavaCollections.hashMapExample();
+        JavaCollections.treeMapExample();
     }
 
     public static void arrayListExample() {
@@ -69,6 +72,30 @@ public class JavaCollections {
         //get size of set
         System.out.println("The set size is now: " + tree.size());
         
+    }
+
+    private static void hashMapExample() {
+        System.out.println("Starting HashMap examples");
+        
+        //make a new hash map
+        HashMap hash = new HashMap();
+        
+        //Add elements into the hash map (Produce prices)
+        hash.put("Apple", 3.74);
+        hash.put("Banana", 0.68);
+        hash.put("Pear", 1.25);
+    }
+
+    private static void treeMapExample() {
+        System.out.println("Starting TreeMap examples");
+        
+        //make a new tree map
+        TreeMap tree = new TreeMap();
+        
+        //Add elements into the tree map (Vacation days left)
+        tree.put("Gina", 5);
+        tree.put("Mark", 3);
+        tree.put("Tom", 13);
     }
     
 }

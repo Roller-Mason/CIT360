@@ -125,8 +125,8 @@ public class JavaCollections {
         //get the size of the map
         System.out.println("The size of the tree map is: " + tree.size()); 
         
-        //see if the map contains Tim
-        System.out.println("Does the tree map contain Tim? : " + tree.containsKey("Tim")); 
+        //see if the map contains Gina
+        System.out.println("Does the tree map contain Gina? : " + tree.containsKey("Gina")); 
         
         //clear the tree set and get size again
         tree.clear();
